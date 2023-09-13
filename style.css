@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  margin-top: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+input {
+  width: 80%;
+  background-color: transparent;
+  border: solid 1px black;
+}
+article p,
+article input {
+  color: black;
+  margin: 0.2rem;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  word-break: break-all;
+}
+
+.container {
+  width: 50%;
+  background-color: cyan;
+  padding: 0.25rem 1rem;
+  border-radius: 0.5rem;
+}
+button {
+  background-color: transparent;
+  padding: 0.15rem;
+  border: 1px solid black;
+  margin: 0rem 0.25rem;
+  cursor: pointer;
+}
+.delete {
+  border-color: red;
+  color: red;
+}
+@media (max-width: 680px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+}
